@@ -1,6 +1,6 @@
 {
     "name": "gcal2ics",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Convert Google Public Calendar URL to an iCAL Calendar URL that you can import via other Calendar Apps",
     "main": "./dist/lib/index.js",
     "types": "./dist/lib/index.d.ts",
