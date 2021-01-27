@@ -11,15 +11,25 @@ However, direct copy-paste in this scenario would not work
 I needed to convert it to https://calendar.google.com/calendar/ical/info@example.com/public/basic.ics  
 So inspired from this [SO answer](https://stackoverflow.com/a/56711805) to automate this process, I decided to create gcal2ics (there were a lot of links)
 
+## [Website](https://pratikpc.github.io/gcal2ics-ui/)
+
+You can use our React website at https://pratikpc.github.io/gcal2ics-ui/
+
+### Sample Screenshot
+
+![Sample Screenshot](/docs/ui.png 'Sample Screenshot')
+
 ## Usage
 
-COMMAND LINE
+### COMMAND LINE
 
 ```
 > gcal2ics https://calendar.google.com/calendar/embed?src=info@example.com
 
 https://calendar.google.com/calendar/ical/info@example.com/public/basic.ics
 ```
+
+### CODE
 
 [TypeScript](https://www.typescriptlang.org/)/JavaScript
 
