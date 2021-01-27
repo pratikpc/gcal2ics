@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import AsGoogleICSLink, { ParamFromURL } from '../lib';
+import gcal2ics, { ParamFromURL } from '../lib';
 
 describe('Google Calendar URL to iCAL', () => {
     it('Param from URL Check', () => {
@@ -12,7 +12,7 @@ describe('Google Calendar URL to iCAL', () => {
     });
     it('Convert Embed Google Cal to ICS', () => {
         // Example from https://stackoverflow.com/questions/30766477/google-calendar-ical-url-for-public-calendar
-        const calendar = AsGoogleICSLink(
+        const calendar = gcal2ics(
             'https://calendar.google.com/calendar/embed?src=info@example.com'
         );
         expect(calendar).to.be.equal(
@@ -30,7 +30,7 @@ describe('Google Calendar URL to iCAL', () => {
     });
     it('Return original link back if src is not part of Google Calendar URL', () => {
         // Example from https://stackoverflow.com/questions/30766477/google-calendar-ical-url-for-public-calendar
-        const calendar = AsGoogleICSLink(
+        const calendar = gcal2ics(
             'https://calendar.google.com/calendar/ical/info@example.com/public/basic.ics'
         );
         expect(calendar).to.be.equal(
