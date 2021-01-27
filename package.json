@@ -14,6 +14,11 @@
         "lint": "eslint --cache --max-warnings=0 --fix lib tests",
         "format": "prettier --write ."
     },
+    "homepage": "https://pratikpc.github.io/gcal2ics-ui/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pratikpc/gcal2ics.git"
+    },
     "author": "Pratik Chowdhury (pratikc@live.co.uk)",
     "license": "MIT",
     "devDependencies": {
