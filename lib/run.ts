@@ -1,8 +1,8 @@
 import { argv } from 'process';
-import AsGoogleICSLink from '.';
+import gcal2ics from '.';
 
 const embedUrl = argv[2];
 if (embedUrl != null) {
-    const icsUrl = AsGoogleICSLink(embedUrl);
+    const icsUrl = gcal2ics(embedUrl);
     console.log(icsUrl);
 }
