@@ -1,6 +1,6 @@
 # gcal2ics (Google Calendar To Google Cal ICS)
 
-[![npm](https://img.shields.io/npm/v/gcal2ics)](https://www.npmjs.com/package/gcal2ics) [![C++](https://img.shields.io/badge/C++-Solutions-blue.svg?style=flat&logo=cplusplus)](https://isocpp.org/) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Lint and Format Status](https://github.com/pratikpc/gcal2ics/workflows/Lint-Format/badge.svg)](https://github.com/pratikpc/gcal2ics/actions) [![Unit Test](https://github.com/pratikpc/gcal2ics/workflows/Unit-Test/badge.svg)](https://github.com/pratikpc/gcal2ics/actions)
+[![npm](https://img.shields.io/npm/v/gcal2ics)](https://www.npmjs.com/package/gcal2ics) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![Lint and Format Status](https://github.com/pratikpc/gcal2ics/workflows/Lint-Format/badge.svg)](https://github.com/pratikpc/gcal2ics/actions) [![Unit Test](https://github.com/pratikpc/gcal2ics/workflows/Unit-Test/badge.svg)](https://github.com/pratikpc/gcal2ics/actions)
 
 ## Why
 
