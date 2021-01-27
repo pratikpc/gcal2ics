@@ -1,0 +1,39 @@
+{
+    "name": "gcal2ics",
+    "version": "1.0.0",
+    "description": "Convert Google Public Calendar URL to an iCAL Calendar URL that you can import via other Calendar Apps",
+    "main": "./dist/lib/index.js",
+    "types": "./dist/lib/index.d.ts",
+    "bin": "./dist/lib/run.js",
+    "scripts": {
+        "test": "mocha -r ts-node/register tests/**/*.test.ts",
+        "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
+        "build": "tsc",
+        "lint": "eslint --cache --max-warnings=0 --fix lib tests",
+        "format": "prettier --write ."
+    },
+    "author": "Pratik Chowdhury (pratikc@live.co.uk)",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/chai": "^4.2.14",
+        "@types/mocha": "^8.2.0",
+        "@types/node": "^14.14.22",
+        "@types/request": "^2.48.5",
+        "@typescript-eslint/eslint-plugin": "^4.14.1",
+        "@typescript-eslint/parser": "^4.14.1",
+        "chai": "^4.2.0",
+        "eslint": "^7.18.0",
+        "eslint-config-airbnb-typescript": "^12.0.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-promise": "^4.2.1",
+        "husky": "^4.3.8",
+        "lint-staged": "^10.5.3",
+        "mocha": "^8.2.1",
+        "nyc": "^15.1.0",
+        "prettier": "^2.2.1",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    }
+}
