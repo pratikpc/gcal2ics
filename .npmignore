@@ -1,0 +1,12 @@
+tsconfig.json
+lib/
+tests/
+.nyc_output/
+dist/tests
+.github
+.nyc_output
+coverage
+*.tsbuildinfo
+.eslint*
+.prettier*
+dist/lib/run*.ts*
